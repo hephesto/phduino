@@ -1,0 +1,41 @@
+#summary FAQ - Frequently Asked Questions
+#labels Phase-Design
+
+== pH and Glass Electrode ==
+
+=== What is pH? ===
+
+[http://en.wikipedia.org/wiki/PH pH] is a number that give us an idea about how [http://en.wikipedia.org/wiki/Acid acid] or [http://en.wikipedia.org/wiki/Base_%28chemistry%29 based] is an aquous medium. The pH scale is from 0 (acid) to 14 (based). pH 7 is a neutral solution.
+
+=== What is a hydrogen ions glass electrode? ===
+
+It is an [http://en.wikipedia.org/wiki/Ion_selective_electrode Ion-selective electrode (ISE)] specific for [http://en.wikipedia.org/wiki/Hydrogen_ion hydrogen ions]. The electric signal is proportional from the rate of the hydrogen ions concentration outside of the bubble (unknown value) and the hydrogen ion concentration inside the bubble (known value). This set up is a capacitor with a very low capacitance. To measure it, you need sense the electric potential but you can not drain charges from this capacitor. This is a potentiometric measurement. You need a system with a high input impedance (from 1E12 up to 1E15 ohm).
+
+The most common glass electrode is called combined glass electrode because there is a [http://en.wikipedia.org/wiki/Reference_electrode reference electrode] construed together with the hydrogen ion glass electrode. This reference electrode is a half electrochemical cell and a very stable chemical system.
+
+This pH meter has the reference electrode connected tight to the ground because we need that our chemical reference electrode has the same potential of the electric ground of the circuit.
+
+=== What is the range operation of a glass electrode? ===
+
+It works fine for moderated pH (from 4 to 9) but can suffer error out this range: acid error (bellow from pH 4) and alkali error (above pH 9). The last one is more critical due the sodium ions concentration be greater than the hydrogen ions concentration. You can reduce this error using a glass electrode without sodium in glass bubble composition. Typically, they work from 2 to 10 and the very good glass electrodes from 1 to 12.
+
+=== How robust is a glass electrode? ===
+
+In fact, none chemical sensor is robust for long periods of use. They are different from a temperature sensor. Most of them need regular calibrations for precise measurements. Glass electrode is not different. Glass is an inert material but there are details about the hydrogen ion sensing.
+
+You need to be careful where you place the glass electrode. For example, you cannot maintain it in an aquarium for days because organic debris can adsorb on the glass bubble surface changing the signal and obstructing the ions channel of the reference electrode. 
+
+== Hardware ==
+
+=== Why did you constructed the pH meter using trimpot instead of a software calibration like the commercial brand pH meters? ===
+
+I will need an ADC with a higher resolution and a peace of code more sophisticated. I don´t have to much time to do this by now. I made the pHduino to be useful, simple, and easy to understand. In fact, a modest hardware can resolves most part of the problems.
+
+=== Why didn´t you constructed a pH meters with 0.001 pH resolution? ===
+
+This kind of pH meters, with 0.001 pH resolution, has a very good glass electrode connected with a high input impedance circuit and high resolution ADC. It is a very expensive system. You can not connect a bad glass electrode with a super pH meter. This resolution is very important for a potentiometric titration of weak acids or bases or a buffer measurement. It is not suitable for a non buffered solution. The solution will suffer changes by the carbonic gas and the temperature in a variable scale.
+
+I believe that some pH meters spend a long time to stabilizes the pH signal due an exaggerated low pass filter to reduce the 50/60Hz noise to reach 0.001 pH resolution.
+
+A pH resolution of 0.02 is fine for most laboratory application using a different glass electrodes.
+Another point is try a pH measurement of 
