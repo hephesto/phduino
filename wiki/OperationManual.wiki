@@ -30,6 +30,17 @@ You don´t need the LCD if you are using the pHduino connect to a USB port. The 
 
 You can operate the pHduino without a LM35 sensor. In this case, you need change the firmware.
 
+= LCD Informations =
+
+When the pHduino is powered up, it shows the project name and the firmware version. Just after, the firmware starts to show the measurements.
+
+There are four informations on display.
+
+|| temperature / celsius degree || pH from 0 to 14 ||
+|| pH sensor voltage / mV || ADC value from 0 to 830 ||
+
+The date are sent continuously by USB port in a string. The fields are separated by spaces and the line is ended with \r\n (Serial.println() function from Arduino).
+
 = Calibration =
 
 To calibrate a pH meter you need two buffer solutions. Select the buffer solutions depending on the pH range that you will work. This procedure considers that you pH sensor is linear in the working range: from 1 or 2 to 10 or 12 typically. Without this range the glass electrode has deviation. 
