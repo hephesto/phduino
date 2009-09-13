@@ -6,7 +6,7 @@
  * Fixed comment about time of one 60Hz cycle in phduino.h file.
  * Added time for 50Hz power line.
  * Added command line feature to configure the pHduino.
- * Added option to work without tempeturate sensor by setting a temperature value by command line.
+ * Added option to work without temperature sensor by setting a temperature value by command line.
  * Added option to configure the time interval between acquisitions.
  * Added option to start/stop data sending by serial.
  * Added a help function.
