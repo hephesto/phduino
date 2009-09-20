@@ -5,10 +5,10 @@
 
  * Changed file name from phduino.h to pHduino.h.
  * Added codename version.
- * Added pH alarm feature: signals of led, beeps, and LCD.
+ * Added function to set the pH range for the pH alarm.
+ * Added pH alarm feature: LED, beeps, message by serial port and LCD.
  * Added feature to save parameters in the EEPROM memory of the Arduino board.
  * Added function to reset parameters in the EEPROM.
- * Added function to set the pH range for the pH alarm.
 
 === v03_20090912 ===
 
