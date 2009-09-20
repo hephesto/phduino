@@ -3,7 +3,8 @@
 
 === v04_20090920 ===
 
- * Changed file name from phduino.h to pHduino.h
+ * Changed file name from phduino.h to pHduino.h.
+ * Added codename version.
  * Added pH alarm feature: signals of led, beeps, and LCD.
  * Added feature to save parameters in the EEPROM memory of the Arduino board.
  * Added function to reset parameters in the EEPROM.
