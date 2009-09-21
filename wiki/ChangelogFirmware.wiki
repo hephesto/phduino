@@ -5,6 +5,7 @@
 
  * Changed file name from phduino.h to pHduino.h.
  * Added codename version.
+ * Changed UART baudrate from 9600 to 115200.
  * Added function to set the pH range for the pH alarm.
  * Added pH alarm feature: LED, beeps, message by serial port and LCD.
  * Added feature to save parameters in the EEPROM memory of the Arduino board.
