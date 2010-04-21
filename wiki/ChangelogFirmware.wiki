@@ -1,6 +1,12 @@
 #summary Changelog Firmware.
 #labels Featured
 
+=== v041_20100421 ===
+
+ * Removed duplicated unsigned word from readADC function.
+ * Added magic number for check empty memory or different data block.
+ * Clean up of version strings.
+
 === v04_20090920 ===
 
  * Changed file name from phduino.h to pHduino.h.
