@@ -28,7 +28,12 @@ You don´t need the LCD if you are using the pHduino connect to a USB port. The 
 
 *WARNING*: Don´t sock the temperature sensor LM35 in the solution without a water proof case! The suggestion is tape it outside of the bottle.
 
-You can operate the pHduino without a LM35 sensor. In this case, you need change the firmware.
+You can operate the pHduino without a LM35 sensor. In this case, you need use the commands:
+
+cmd set_temp_sensor on|off
+cmd set_temp FLOAT
+
+Obs.: Replace on|off by on or off and the FLOAT word by a floating point number (celcius degree).
 
 = LCD Informations =
 
