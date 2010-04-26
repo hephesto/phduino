@@ -30,19 +30,18 @@ Most Linux distributions have the QtDesigner in the repositories.
 After a modification in the pyphplot.ui, you need run pyuic4 to converts a ui file to a python module. It is very important don't change the files names.
 
 For example
-:
-
 
 Linux machine
 
+{{{
 # pyuic4 pyphplot.ui -o pyphplotui.py
-
-
+}}}
 
 Windows machine
 
+{{{
 $ pyuic4 pyphplot.ui > pyphplotui.py
-
+}}}
 
 At the end, run the python script.
 
@@ -50,8 +49,7 @@ At the end, run the python script.
 
 If you had a problem like this
 
-
-
+{{{
 $ python pyphplot_v01.py
 
 Traceback (most recent call last):
@@ -65,26 +63,24 @@ Traceback (most recent call last):
     from qwt_plot import QwtPlot
 
 ImportError: No module named qwt_plot
-
-
+}}}
 
 Open the pyphplotui.py and do this at the end of the file:
 
-
-
+{{{
 from qwt_plot import QwtPlot
+}}}
 
 to
 
+{{{
 from PyQt4.Qwt5 import QwtPlot
-
+}}}
 
 
 Reference: 
 
 http://www.riverbankcomputing.com/pipermail/pyqt/2006-August/013960.html
-
-
 
 
 = Tips =
