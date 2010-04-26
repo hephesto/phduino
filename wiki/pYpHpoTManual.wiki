@@ -13,6 +13,7 @@ This software is multiplatform and runs in Linux , Windows and MacOSX (the last 
  * numpy
  * pyQt
  * pyQWT
+ * pyserial <http://pyserial.sourceforge.net/>
 
 Check the list of packages out to install at the pyQWT project. Pay attention to the packages versions.
 
