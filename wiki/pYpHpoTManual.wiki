@@ -66,7 +66,7 @@ Traceback (most recent call last):
 ImportError: No module named qwt_plot
 }}}
 
-Open the pyphplotui.py and do this at the end of the file:
+Open the pyphplotui.py in a text editor and change the line from
 
 {{{
 from qwt_plot import QwtPlot
