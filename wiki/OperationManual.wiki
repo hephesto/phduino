@@ -1,4 +1,5 @@
 #summary Operation Manual
+#labels Featured
 
 = Introduction =
 
@@ -14,6 +15,7 @@ You don´t need the LCD if you are using the pHduino connect to a USB port. The 
 
   * Hyperterminal
   * Realterm [http://realterm.sourceforge.net/ http://realterm.sourceforge.net/]
+  * Terminalbpp [https://sites.google.com/site/terminalbpp/ https://sites.google.com/site/terminalbpp/]
 
 === for GNU/Linux ===
 
