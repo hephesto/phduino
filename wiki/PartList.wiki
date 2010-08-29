@@ -1,6 +1,4 @@
-#summary partlist
 #labels Featured
-
 = Partlist =
 
 Exported from pHduino_v02.02.sch at 28/08/10 19:31
