@@ -1,6 +1,10 @@
 #summary Changelog Hardware
 #labels Featured
 
+=== v02_20100907 ===
+
+ * Changed the BNC connector to not show the metallic part in the gerber files. The layout is exactly the same.
+
 === v02_20090823 ===
 
  * Fixed the problem of the offset signal amplification before the compensation.
