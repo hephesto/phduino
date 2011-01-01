@@ -5,6 +5,8 @@
 
 <table style="width:auto;"><tr><td><a href="http://picasaweb.google.com/lh/photo/pVAAyUV0jfruD1f-puEz9A?feat=embedwebsite"><img src="http://lh5.ggpht.com/_CjTtOo4QsAQ/TR9Y3zzuI6I/AAAAAAAAAZg/g8UbHa8qo1M/s800/S5030506.JPG" height="480" width="640" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">De <a href="http://picasaweb.google.com/113662238417125015401/PHduinoDatalogger?feat=embedwebsite">pHduino Datalogger</a></td></tr></table>
 
+<table style="width:auto;"><tr><td><a href="http://picasaweb.google.com/lh/photo/xhXZtGnlrSb_jIM1bYG-jg?feat=embedwebsite"><img src="http://lh4.ggpht.com/_CjTtOo4QsAQ/TR9Y3xxdNKI/AAAAAAAAAZY/hYJyNEDYGN0/s800/S5030505.JPG" height="480" width="640" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">De <a href="http://picasaweb.google.com/113662238417125015401/PHduinoDatalogger?feat=embedwebsite">pHduino Datalogger</a></td></tr></table>
+
 <table style="width:auto;"><tr><td><a href="http://picasaweb.google.com/lh/photo/8TFfy8wW29DmwQ4KvPgkpA?feat=embedwebsite"><img src="http://lh4.ggpht.com/_CjTtOo4QsAQ/TR9dV5iBudI/AAAAAAAAAZ8/r8QGV0Abm98/s800/phduino_datalogger_shield_brd.png" height="320" width="290" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">De <a href="http://picasaweb.google.com/113662238417125015401/PHduinoDatalogger?feat=embedwebsite">pHduino Datalogger</a></td></tr></table>
 
 The pHduino Datalogger software and hardware are an extention of the pHduino project. The datalogger is a shield using an I2C real time clock (RTC) and an I2C EEPROM memory. The circuit is simple and you can mount it using a breadboard or a universal prototype board.
