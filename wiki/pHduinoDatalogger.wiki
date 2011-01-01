@@ -1,4 +1,5 @@
 #summary pHduino Datalogger.
+#labels Featured
 
 == ABOUT ==
 
