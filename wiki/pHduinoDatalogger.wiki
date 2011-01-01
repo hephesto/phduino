@@ -33,6 +33,8 @@ Obs.: delete the applet directory inside of DS1307/examples/ds1307_rtc directory
 
 You can edit the data code to put more or less information inside of the I2C EEPROM. You need change the myRecLog_T struct, datalogger_write function, and datalogger_read function.
 
+Although 512kB, or 65536 bytes, is not a big memory, you can have change some parameters to improve the data acquisition. For example, storaging the year (unsigned char), month (unsigned char), day (unsigned char), hour (unsigned char), minute (unsigned char), temperature (float), and the pH (float), you will spend 13 bytes with this block of data (unsigned char = 1 byte and float = 4 bytes). It is defined at the myRecLog_T struct, inside the pHduino datalogger code. 65536 byes divided by 13 bytes give us 5041 bocks of data. Using one block per minute it is the same of 5041 minutes of acquisition or 84 hours or 3.5 days. Instead of it, you can acquire each 15 minutes (1260 hours or 52 days). You can, also, change the myRecLog_T struct to reduce the data block.
+
 == OPERATION ==
 
 The code will only store data when the pHduino code is in the start mode (cmd phduino start) and in the log mode (cmd log on). 
