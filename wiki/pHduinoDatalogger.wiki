@@ -1,0 +1,31 @@
+#summary pHduino Datalogger.
+
+= ABOUT =
+
+<table style="width:auto;"><tr><td><a href="http://picasaweb.google.com/lh/photo/pVAAyUV0jfruD1f-puEz9A?feat=embedwebsite"><img src="http://lh5.ggpht.com/_CjTtOo4QsAQ/TR9Y3zzuI6I/AAAAAAAAAZg/g8UbHa8qo1M/s144/S5030506.JPG" height="108" width="144" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">De <a href="http://picasaweb.google.com/113662238417125015401/PHduinoDatalogger?feat=embedwebsite">pHduino Datalogger</a></td></tr></table>
+
+<table style="width:auto;"><tr><td><a href="http://picasaweb.google.com/lh/photo/8TFfy8wW29DmwQ4KvPgkpA?feat=embedwebsite"><img src="http://lh4.ggpht.com/_CjTtOo4QsAQ/TR9dV5iBudI/AAAAAAAAAZ8/r8QGV0Abm98/s144/phduino_datalogger_shield_brd.png" height="144" width="131" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">De <a href="http://picasaweb.google.com/113662238417125015401/PHduinoDatalogger?feat=embedwebsite">pHduino Datalogger</a></td></tr></table>
+
+The pHduino Datalogger software and hardware are an extention of the pHduino project. The datalogger is a shield using a I2C real time clock (RTC) and a I2C EEPROM memory. The circuit is simple and you can mount it using a breadboard or a universal prototype board.
+
+The AT24C512 I2C EEPROM (512kB) is not a big memory, but I decided to use it because it is cheap and easy to use.
+
+The DS1307 I2C Real-Time clock is a standard RTC for microcontrollers. To retain the parameters, I used a CR2032 battery.
+
+= COMPILE =
+
+The datalogger code is a little bit bigger than the single pHduino code. Therefore, it doesn't fit in an atmega168. You need an atmega328.
+
+= DEPENDENCE =
+
+DS1307 RTC I2C library
+
+http://code.google.com/p/sjunnesson/wiki/DS1307
+
+Download it and unpack it inside the skechbook/libraries directory.
+
+Obs.: delete the applet directory inside of DS1307/examples/ds1307_rtc directory.
+
+= CHANGING THE DATA STRUCT =
+
+You can edit the data code to put more or less information inside of the I2C EEPROM. You need change the myRecLog_T struct, datalogger_write function, and datalogger_read function.
