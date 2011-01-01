@@ -35,6 +35,8 @@ You can edit the data code to put more or less information inside of the I2C EEP
 
 == OPERATION ==
 
+The code will only store data when the pHduino code is in the start mode (cmd phduino start) and in the log mode (cmd log on). 
+
 Reset the EEPROM memory.
 
 {{{
