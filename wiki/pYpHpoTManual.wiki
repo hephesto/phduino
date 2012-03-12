@@ -9,13 +9,15 @@ This software is multiplatform and runs in Linux , Windows and MacOSX (the last 
 
 = Dependence =
 
- * Python
- * numpy
- * pyQt
- * pyQWT
+ * Python <http://www.python.org/>
+ * numpy <http://numpy.scipy.org/>
+ * pyQt <http://www.riverbankcomputing.co.uk/software/pyqt/download>
+ * pyQWT <http://pyqwt.sourceforge.net/download.html>
  * pyserial <http://pyserial.sourceforge.net/>
 
 Check the list of packages out to install at the pyQWT project. Pay attention to the packages versions.
+
+*bold* TIP: Read the second topic about the installation of the pyQWT at the download page.
 
 http://pyqwt.sourceforge.net/download.html
 
