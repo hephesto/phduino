@@ -9,6 +9,7 @@
  * DS1307.h and twi_eeprom.h: Changed all Wire.send to Wire.write and all Wire.receive to Wire.read.
  * acme.h: Change from Serial.print(c,BYTE) to Serial.write(c).
  * Changed the main program .pde to .ino.
+ * Changed CL_MAX_PARAMS_NUM in commandline.h from 2 to 3 (fco).
 
 === v041_20100421 ===
 
