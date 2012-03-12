@@ -1,6 +1,15 @@
 #summary Changelog Firmware.
 #labels Featured
 
+=== v041_20120312 ===
+
+* Removed all WProgram.h and WConstants.h and replaced by Arduino.h.
+* DS1307.cpp: Included Arduino.h.
+* DS1307.cpp: Typecast: from Wire.write(0x00) to Wire.write((uint8_t)0x00).
+* DS1307.h and twi_eeprom.h: Changed all Wire.send to Wire.write and all Wire.receive to Wire.read.
+* acme.h: Change from Serial.print(c,BYTE) to Serial.write(c).
+* Changed the main program .pde to .ino.
+
 === v041_20100421 ===
 
  * Removed duplicated unsigned word from readADC function.
