@@ -37,13 +37,13 @@ For example
 Linux machine
 
 {{{
-# pyuic4 pyphplot.ui -o pyphplotui.py
+# pyuic4 pyphpot.ui -o pyphpotui.py
 }}}
 
 Windows machine
 
 {{{
-$ pyuic4 pyphplot.ui > pyphplotui.py
+$ pyuic4 pyphpot.ui > pyphpotui.py
 }}}
 
 At the end, run the python script.
