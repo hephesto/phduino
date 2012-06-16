@@ -9,31 +9,31 @@ EAGLE Version 5.10.0 Copyright (c) 1988-2010 CadSoft
 
 * Part     Value                        Device                       Package       Library         Sheet *
 
-C1       100n                         C-EU050-025X075              C050-025X075  rcl             1
+C1       100nF                         C-EU050-025X075              C050-025X075  rcl             1
 
-C2       100n                         C-EU050-025X075              C050-025X075  rcl             1
+C2       100nF                         C-EU050-025X075              C050-025X075  rcl             1
 
-C3       100n                         C-EU050-025X075              C050-025X075  rcl             1
+C3       100nF                         C-EU050-025X075              C050-025X075  rcl             1
 
-C4       100n                         C-EU050-025X075              C050-025X075  rcl             1
+C4       100nF                         C-EU050-025X075              C050-025X075  rcl             1
 
-C5       100n                         C-EU050-025X075              C050-025X075  rcl             1
+C5       100nF                         C-EU050-025X075              C050-025X075  rcl             1
 
-C6       100n                         C-EU050-025X075              C050-025X075  rcl             1
+C6       100nF                         C-EU050-025X075              C050-025X075  rcl             1
 
-C7       100n                         C-EU050-025X075              C050-025X075  rcl             1
+C7       100nF                         C-EU050-025X075              C050-025X075  rcl             1
 
-C8       100n                         C-EU050-025X075              C050-025X075  rcl             1
+C8       100nF                         C-EU050-025X075              C050-025X075  rcl             1
 
-C9       100n                         C-EU050-025X075              C050-025X075  rcl             1
+C9       100nF                         C-EU050-025X075              C050-025X075  rcl             1
 
 C10      100uFx25V                    CPOL-EUE2.5-7                E2,5-7        rcl             1
 
 C11      100uFx25V                    CPOL-EUE2.5-7                E2,5-7        rcl             1
 
-C12      100n                         C-EU050-025X075              C050-025X075  rcl             1
+C12      100nF                         C-EU050-025X075              C050-025X075  rcl             1
 
-C13      100n                         C-EU050-025X075              C050-025X075  rcl             1
+C13      100nF                         C-EU050-025X075              C050-025X075  rcl             1
 
 D1       BZX55C5V1                    BZX55                        DO35Z10       diode           1
 
@@ -106,6 +106,8 @@ SG1      F/TMB                        F/TMB                        F/TMB        
 X1       1-227161-0                   1-227161-0                   AMP_227161    con-coax        1
 
 ----
+Obs: 40k2 is the same of 40.2k ohm. It is a short in electronics.
+
 
 = Parts not showed and comments =
 
