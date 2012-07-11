@@ -93,4 +93,4 @@ You can buy bottles or sachets of ready to use buffer solutions or buy sachets o
 
 The pH sensor is ready to use. To read the pH of your sample, put it inside of the sample and wait for stabilization of the signal. Always wash it and dry it carefully to avoid contamination when you change the samples.
 
-After the use, wash it and dry it with a peace of soft paper carefully, and keep it in water solution to avoid dehydration of the glass bubble and the reference electrode porous ions channel. 
+After the use, wash it and dry it with a piece of soft paper carefully, and keep it in water solution to avoid dehydration of the glass bubble and the reference electrode porous ions channel. 
