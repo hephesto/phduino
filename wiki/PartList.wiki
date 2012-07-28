@@ -176,3 +176,9 @@ There are three test points. You don't really need them. You could remove the JP
 == Power Monitors ==
 
 The LED1 and LED2 show if +5V and the -5V are on. You don't really need them. You could remove LED1, LED2, and the resistors R13 and R14.
+
+== Trimming pot ==
+
+The R2, R3, and R16 are trimming potentiometers multi-turn. It is a high precision variable resistor multi-turn (about 22 turns). You can find with different names: trimpot, trimpot multiturn, or trimmer. The name depends of the seller and of the country. The package is 3/8" (19mm). Bourns is one of the manufactures (3006 serie - trimpot trimming potentiometer).
+
+http://www.bourns.com/data/global/pdfs/3006.pdf
