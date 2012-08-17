@@ -1,6 +1,8 @@
 #summary Controlling the pHduino with a Python-Jabberbot script
 #labels Featured
 
+<wiki:toc max_depth="1" />
+
 = Introduction =
 
 This is a simple suggestion to control the pHduino over Internet using the  Python-Jabberbot framework. It could be interesting, for example, if you want to monitor the pH of an aquarium from your work or using your smartphone from anywhere.
@@ -296,14 +298,5 @@ cmd reset
 And remember: pH notation is lowercase "p" and  uppercase "H".
 
 Good hacks. 
-= Introduction =
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+http://phduino.blogspot.com.br/2012/07/controlling-phduino-with-python.html
