@@ -1,8 +1,6 @@
 #summary Controlling the pHduino with a Python-Jabberbot script
 #labels Featured
 
-#sidebar TableOfContents
-
 = Introduction =
 
 This is a simple suggestion to control the pHduino over Internet using the  Python-Jabberbot framework. It could be interesting, for example, if you want to monitor the pH of an aquarium from your work or using your smartphone from anywhere.
