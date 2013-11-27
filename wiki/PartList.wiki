@@ -133,6 +133,10 @@ http://www.datasheetcatalog.com/datasheets_pdf/T/L/0/7/TL072.shtml
 
 http://www.datasheetcatalog.com/datasheets_pdf/T/L/0/8/TL082.shtml
 
+There is a improvement of this part called TL052. It is full specified to work with +/-5V.
+
+http://www.ti.com/product/tl052
+
 == Negative Charge Pump ==
 
 The IC2 TC1121 can be replaced by the ICL7660, ICL7660A, or ICL7660S. The ICL7660S is a direct replacement for the industry standard ICL7660 offering an extended operating supply voltage range up to 12V, with lower supply current. But, you need left the low voltage LV pin (pin 6) not connected. Just rise it or cut it.
