@@ -18,7 +18,7 @@ This pH meter has the reference electrode connected to the ground because we nee
 
 It works fine for moderated pH (from 4 to 9) but can suffer error out this range: acid error (bellow from pH 4) and alkali error (above pH 9). The last one is more critical due the sodium ions concentration be greater than the hydrogen ions concentration. You can reduce this error using a glass electrode without sodium in glass bubble composition. Typically, they work from 2 to 10 and the very good glass electrodes from 1 to 12.
 
-=== How robust is a glass electrode? ===
+=== How is robust a glass electrode? ===
 
 In fact, none chemical sensor is robust for long periods of use. They are different from a temperature sensor. Most of them need regular calibrations for precise measurements. Glass electrode is not different. Glass is an inert material but there are details about the hydrogen ion sensing. A detailed description you can find in a text book or at the glass electrode wikipedia link.
 
