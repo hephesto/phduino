@@ -9,7 +9,7 @@ This project describes an open software open hardware [http://en.wikipedia.org/w
 
 It was possible by the idea from my friend Mr. Denis Vidal, the space that my supervisor gave me, prof. Dr. Emanuel Carrilho, [http://sites.google.com/site/biomicsgroup/ BioMicS Group], [http://www.iqsc.usp.br/ Instituto de Química de São Carlos], [http://www.usp.br/ Universidade de São Paulo], Brazil, and by facilities and suggestions from prof. Dr. Claudimir Lucio do Lago, [http://sites.google.com/site/laiaiqusp/ LAIA Laboratory], [http://www.iq.usp.br/ Instituto de Química da Universidade de São Paulo], Brazil. Thanks [http://www.fapesp.br/ Fapesp - Fundação de Amparo à Pesquisa do Estado de São Paulo] by the financial support for my different projects during my academic life.
 
-<table style="width:auto;"><tr><td><a href="http://picasaweb.google.com.br/lh/photo/twkMUkjBq27yMgWh0ellqQ?feat=embedwebsite"><img src="http://lh6.ggpht.com/_CjTtOo4QsAQ/SpxadcFk71I/AAAAAAAAAMc/83hcoe7n7yg/s400/phduino_v02_PIC_0050.JPG" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">De <a href="http://picasaweb.google.com.br/caneves/PHduinoV02?feat=embedwebsite">pHduino v0.2</a></td></tr></table>
+<table style="width:auto;"><tr><td><a href="http://picasaweb.google.com.br/lh/photo/twkMUkjBq27yMgWh0ellqQ?feat=embedwebsite"><img src="http://lh6.ggpht.com/_CjTtOo4QsAQ/SpxadcFk71I/AAAAAAAAAMc/83hcoe7n7yg/s400/phduino_v02_PIC_0050.JPG" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">De <a href="http://picasaweb.google.com.br/caneves/PHduinoV02?feat=embedwebsite">pHduino</a></td></tr></table>
 
 #Importance and Applications
 
