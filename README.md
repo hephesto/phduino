@@ -29,6 +29,8 @@ Again, it is not intent to be a high resolution analytical instrument to compete
 
 #News
 
+ * *2015-04-29* Released hardware v0.3: update of parts and Eagle 7.
+ 
  * *2015-04-03* Exported to the Github.
  
  * *2012-07-13* Released Python Jabberbot script v0.1.
@@ -61,11 +63,11 @@ The layout PCB is under Creative Commons 3.0 and the source code under GPLv2.
 
 PCB layout.
 
-<a href="http://picasaweb.google.com.br/lh/photo/JQOwhpcaMs1ZrYlBou0nGw?feat=embedwebsite"><img src="http://lh3.ggpht.com/_CjTtOo4QsAQ/SpxZME3GwPI/AAAAAAAAAMA/l-w8Vk6oWhg/s800/pHduino_v02.02_PCB.png" /></a>
+<a href="https://picasaweb.google.com/lh/photo/0JWi1pM21YxrgG30BUinR8ZioGT5VN8ZSNB9mOAxxpc?feat=embedwebsite"><img src="https://lh3.googleusercontent.com/-nwxO6uoxfX0/VUBHelRDKqI/AAAAAAAABX0/F6Z8iE2cWAY/s288/pHduino_v03_shield.png" height="205" width="288" /></a>
 
 Electronic scheme.
 
-<a href="http://picasaweb.google.com.br/lh/photo/GH973jZej_jhEzqNdsHK_A?feat=embedwebsite"><img src="http://lh5.ggpht.com/_CjTtOo4QsAQ/SpxZLVArCKI/AAAAAAAAAL0/7gO3MwHGcnw/s800/pHduino_v02.02_scheme.png" /></a>
+<a href="https://picasaweb.google.com/lh/photo/UT8_g7hIL_u12vvPnCDfcsZioGT5VN8ZSNB9mOAxxpc?feat=embedwebsite"><img src="https://lh3.googleusercontent.com/-orz1CU23KSU/VUBHY72pEaI/AAAAAAAABX0/Quhnx-HmZpM/s288/pHduino_v03_scheme.png" height="199" width="288" /></a>
 
 #References
 
@@ -98,4 +100,4 @@ pH Meter
 [http://jchemed.chem.wisc.edu/Journal/Issues/1995/Dec/abs1135.html Da Rocha, Rogerio T.; Gutz, Ivano G. R.; do Lago, Claudimir L., "From Christmas Ornament to Glass Electrode", Journal of Chemical Education, 1995, 72, 1135-1136].
 
 ----
-Updated: 2015-04-03
+Updated: 2015-04-29
