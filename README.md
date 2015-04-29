@@ -63,11 +63,11 @@ The layout PCB is under Creative Commons 3.0 and the source code under GPLv2.
 
 PCB layout.
 
-<a href="https://picasaweb.google.com/lh/photo/0JWi1pM21YxrgG30BUinR8ZioGT5VN8ZSNB9mOAxxpc?feat=embedwebsite"><img src="https://lh3.googleusercontent.com/-nwxO6uoxfX0/VUBHelRDKqI/AAAAAAAABX0/F6Z8iE2cWAY/s400/pHduino_v03_shield.png" height="285" width="400" /></a>
+<a href="https://picasaweb.google.com/lh/photo/0JWi1pM21YxrgG30BUinR8ZioGT5VN8ZSNB9mOAxxpc?feat=embedwebsite"><img src="https://lh3.googleusercontent.com/-nwxO6uoxfX0/VUBHelRDKqI/AAAAAAAABX0/F6Z8iE2cWAY/s800/pHduino_v03_shield.png" height="390" width="547" /></a>
 
 Electronic scheme.
 
-<a href="https://picasaweb.google.com/lh/photo/UT8_g7hIL_u12vvPnCDfcsZioGT5VN8ZSNB9mOAxxpc?feat=embedwebsite"><img src="https://lh3.googleusercontent.com/-orz1CU23KSU/VUBHY72pEaI/AAAAAAAABX0/Quhnx-HmZpM/s400/pHduino_v03_scheme.png" height="276" width="400" /></a>
+<a href="https://picasaweb.google.com/lh/photo/UT8_g7hIL_u12vvPnCDfcsZioGT5VN8ZSNB9mOAxxpc?feat=embedwebsite"><img src="https://lh3.googleusercontent.com/-orz1CU23KSU/VUBHY72pEaI/AAAAAAAABX0/Quhnx-HmZpM/s800/pHduino_v03_scheme.png" height="551" width="800" /></a>
 
 #References
 
