@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>pHduino - pH meter shield for Arduino by hephesto</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>pHduino - pH meter shield for Arduino</h1>
+        <h2>pHduino Github page</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/hephesto/phduino/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/hephesto/phduino/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/hephesto/phduino" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="phduino" class="anchor" href="#phduino" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>phduino</h1>
+
+<p>Automatically exported from code.google.com/p/phduino</p>
+
+<h1>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h1>
+
+<p>This project describes an open software open hardware <a href="http://en.wikipedia.org/wiki/PH_meter">pH meter</a> using an <a href="http://www.arduino.cc">Arduino</a>/<a href="http://www.freeduino.org">Freeduino</a> board. In other words, this is an electronic circuit to be connected with a <a href="http://en.wikipedia.org/wiki/Glass_electrode">glass electrode</a> <a href="http://en.wikipedia.org/wiki/PH">pH</a> sensor.</p>
+
+<p>It was possible by the idea from my friend Mr. Denis Vidal, the space that my supervisor gave me, prof. Dr. Emanuel Carrilho, <a href="http://sites.google.com/site/biomicsgroup/">BioMicS Group</a>, <a href="http://www.iqsc.usp.br/">Instituto de Química de São Carlos</a>, <a href="http://www.usp.br/">Universidade de São Paulo</a>, Brazil, and by facilities and suggestions from prof. Dr. Claudimir Lucio do Lago, <a href="http://sites.google.com/site/laiaiqusp/">LAIA Laboratory</a>, <a href="http://www.iq.usp.br/">Instituto de Química da Universidade de São Paulo</a>, Brazil. Thanks <a href="http://www.fapesp.br/">Fapesp - Fundação de Amparo à Pesquisa do Estado de São Paulo</a> by the financial support for my different projects during my academic life.</p>
+
+<p><a href="https://goo.gl/photos/o2cWYBubxp1B6Yo87">pHduino</a></p>
+
+<h1>
+<a id="importance-and-applications" class="anchor" href="#importance-and-applications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Importance and Applications</h1>
+
+<p><a href="http://en.wikipedia.org/wiki/PH">pH</a> is a very important property in aqueous solutions. The pH is defined the colog (-log) of the hydrogen ion (H^+^) activity in the medium (or concentration when the H^+^ is low quantity). This property indicates if the medium is acid, neutral, or basic.</p>
+
+<p>For example, it is necessary control the pH of an aquarium. Some species of fish can not live out of a range of pH. So, we need read it and make the write correction of the pH. Other areas or applications where is important to know the pH are hydroponic, fermentation processes like beer and wine production, environmental monitoring of soils, water of rivers, lakes, and rain, sewage treatment tanks, monitoring of solution and buffers in laboratories of chemistry, and etc.</p>
+
+<h1>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h1>
+
+<p>The pHduino can operate using a LCD to display the pH and the temperature data like a pH meter. Also, you can control it using a computer by USB port.</p>
+
+<p>The signal gain (slope) and the signal offset are adjusted manually by trimpots. The signal is compensated by a temperature sensor.</p>
+
+<p>It seems inferior and a little bit more expensive compared with a pH meter bench instrument. However, it is interfaceable, programmable, expansible, and, the more important, open and free!</p>
+
+<p>Again, it is not intent to be a high resolution analytical instrument to compete with a commercial pH meter. It is to be simple, easy to understand, easy to modify, and different!</p>
+
+<h1>
+<a id="news" class="anchor" href="#news" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>News</h1>
+
+<ul>
+<li><p><em>2015-04-29</em> Released hardware v0.3: update of parts and Eagle 7.</p></li>
+<li><p><em>2015-04-03</em> Exported to the Github.</p></li>
+<li><p><em>2012-07-13</em> Released Python Jabberbot script v0.1.</p></li>
+<li><p><em>2012-03-12</em> Arduino 1.0 compatible.</p></li>
+<li><p><em>2011-01-01</em> pHduino Datalogger hardware v0.1 and firmware v0.4.1-0.3 released.</p></li>
+<li><p><em>2010-09-07</em> Released new hardware v0.2_0.3 and gerber files package v0.1.</p></li>
+<li><p><em>2010-04-25</em> Released pYpHpoT v0.1.</p></li>
+<li><p><em>2010-04-21</em> Released firmware v0.4.1.</p></li>
+<li><p><em>2009-09-20</em> Released firmware v0.4.</p></li>
+<li><p><em>2009-09-13</em> Released firmware v0.3.</p></li>
+<li><p><em>2009-08-31</em> Released hardware v0.2 and firmware v0.2.</p></li>
+<li><p><em>2009-08-12</em> First public release of the electronic circuit.</p></li>
+<li><p><em>2009-08-04</em> Project opened.</p></li>
+</ul>
+
+<h1>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h1>
+
+<p>The layout PCB is under Creative Commons 3.0 and the source code under GPLv2.</p>
+
+<h1>
+<a id="photos" class="anchor" href="#photos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Photos</h1>
+
+<p><a href="https://goo.gl/photos/V8zAEUFp36tf4swK9">PCB Layout</a></p>
+
+<p><a href="https://goo.gl/photos/vdPVSdEFYUDS8PLh9">Electronic scheme</a></p>
+
+<h1>
+<a id="references" class="anchor" href="#references" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>References</h1>
+
+<p>The Simplest Possible pH Meter</p>
+
+<p><a href="http://www.66pacific.com/ph/simplest_ph.aspx">http://www.66pacific.com/ph/simplest_ph.aspx</a></p>
+
+<p>pH Meter - ProjectWIKI</p>
+
+<p><a href="http://blea.ch/wiki/index.php/PH_Meter">http://blea.ch/wiki/index.php/PH_Meter</a></p>
+
+<p>pH Meter - Circuit Operation</p>
+
+<p><a href="http://home.zonnet.nl/rsetteur/ph_ice.org/www.ice.org/equipment/phmeter/phoper.html">http://home.zonnet.nl/rsetteur/ph_ice.org/www.ice.org/equipment/phmeter/phoper.html</a></p>
+
+<p>pH-meter.info</p>
+
+<p><a href="http://www.ph-meter.info/pH-meter-construction">http://www.ph-meter.info/pH-meter-construction</a></p>
+
+<p>Tiny pH-meter</p>
+
+<p><a href="http://damien.douxchamps.net/elec/ph_meter/">http://damien.douxchamps.net/elec/ph_meter/</a></p>
+
+<p>pH Amplifier for Micro</p>
+
+<p><a href="http://www.electro-tech-online.com/electronic-projects/41430-ph-amplifier-micro.html">http://www.electro-tech-online.com/electronic-projects/41430-ph-amplifier-micro.html</a></p>
+
+<p>pH Probe Amplifier/Temperature Compensator</p>
+
+<p><a href="http://www.national.com/ds/LF/LF444.pdf">http://www.national.com/ds/LF/LF444.pdf LF444 Datasheet - Typical Application</a></p>
+
+<p>pH Meter</p>
+
+<p><a href="http://focus.ti.com/lit/ds/symlink/opa129.pdf">http://focus.ti.com/lit/ds/symlink/opa129.pdf OPA129 Datasheet - High impedance amplifier.</a></p>
+
+<h1>
+<a id="articles" class="anchor" href="#articles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Articles</h1>
+
+<p><a href="http://jchemed.chem.wisc.edu/Journal/Issues/1995/Dec/abs1135.html">http://jchemed.chem.wisc.edu/Journal/Issues/1995/Dec/abs1135.html Da Rocha, Rogerio T.; Gutz, Ivano G. R.; do Lago, Claudimir L., "From Christmas Ornament to Glass Electrode", Journal of Chemical Education, 1995, 72, 1135-1136</a></p>
+
+<hr>
+
+<p>Updated: 2016-12-05</p>
+      </section>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-76417060-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
